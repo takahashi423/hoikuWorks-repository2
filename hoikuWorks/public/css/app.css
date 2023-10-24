@@ -1,0 +1,57 @@
+.custom-button {
+    height:100px;
+    font-size: 50px;
+    font-family: Meiryo;
+}
+
+#season_id {
+    text-align: center;
+}
+
+.form-group {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title h1 {
+    margin-bottom: 5%;
+}
+
+.upload-btn {
+    margin-top: 5%;
+}
+
+.searchBar {
+    margin-top: 5%;
+}
+
+.searchIndex {
+    text-align: center;
+}
+
+#image-container {
+    position: relative; /* 相対的な位置指定を有効にする */
+}
+
+#image-container img {
+    position: relative;
+    top: -30px; /* 画像を上に移動させるための値を調整 */
+    transition: top 0.3s ease; /* 移動のアニメーションを追加（オプション） */
+}
+
+#image-container img:hover {
+    top: -100px; /* ホバー時にさらに上に移動（オプション） */
+}
+
+.gomennyasai {
+    width: 40%;
+}
+
+.message {
+    text-align: center;
+}
+
+.likedColor {
+    background-color: palevioletred;
+    color: white;
+}
